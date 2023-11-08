@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$authors$</authors>
+    <developmentDependency>true</developmentDependency>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/smkanadl/StringSyntaxAttribute</projectUrl>
+    <releaseNotes>https://github.com/smkanadl/StringSyntaxAttribute/blob/main/CHANGELOG.md</releaseNotes>
+    <description>$description$</description>
+    <tags>.NET7 source compiletime polyfill StringSyntaxAttribute StringSyntax</tags>
+    <repository type="git" url="https://github.com/smkanadl/StringSyntaxAttribute" />
+    <contentFiles>
+      <files include="**/*.cs" />
+    </contentFiles>
+    <readme>Readme.md</readme>
+  </metadata>
+  <files>
+    <file src="StringSyntaxAttribute.cs" target="contentFiles/cs/netstandard1.0/StringSyntaxAttribute" />
+    <file src="StringSyntaxAttribute.cs" target="contentFiles/cs/netstandard2.0/StringSyntaxAttribute" />
+    <file src="StringSyntaxAttribute.cs" target="contentFiles/cs/net20/StringSyntaxAttribute" />
+    <file src="StringSyntaxAttribute.cs" target="contentFiles/cs/net48/StringSyntaxAttribute" />
+    <file src="StringSyntaxAttribute.cs" target="contentFiles/cs/net5.0/StringSyntaxAttribute" />
+    <file src="StringSyntaxAttribute.cs" target="content/netstandard1.0/StringSyntaxAttribute" />
+    <file src="StringSyntaxAttribute.cs" target="content/netstandard2.0/StringSyntaxAttribute" />
+    <file src="StringSyntaxAttribute.cs" target="content/net20/StringSyntaxAttribute" />
+    <file src="StringSyntaxAttribute.cs" target="content/net48/StringSyntaxAttribute" />
+    <file src="StringSyntaxAttribute.cs" target="content/net5.0/StringSyntaxAttribute" />
+    <file src="StringSyntaxAttribute.props" target="build/StringSyntaxAttribute.props" />
+    <file src="../../Readme.md" target="Readme.md" />
+  </files>
+</package>
